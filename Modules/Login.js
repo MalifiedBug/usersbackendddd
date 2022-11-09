@@ -7,7 +7,7 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 const mongoClient = mongodb.MongoClient;
-const MONGO_URL = "mongodb+srv://omkar123:omkar123@cluster123.hnyyicy.mongodb.net/?retryWrites=true&w=majority"
+const MONGO_URL = process.env.MONGO_URL;
 const SECRET_KEY = "FOUAYFGFBAOEYFGoygbdofly3287yeboayhb@#$#ikh"
 
 
