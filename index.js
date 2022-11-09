@@ -14,6 +14,8 @@ app.use(cors({
 
 const PORT = process.env.PORT;
 
+console.log(PORT)
+
 
 app.get("/", function (request, response) {
   response.send("🙋‍♂️, 🌏 🎊✨🤩");
